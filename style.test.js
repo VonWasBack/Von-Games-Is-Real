@@ -44,8 +44,9 @@ describe('CSS Class Tests', () => {
     test('Dark mode toggle should have the correct styles', () => {
         document.body.innerHTML = '<button class="dark-mode-toggle"></button>';
         const button = document.querySelector('.dark-mode-toggle');
-
+    
         const styles = getComputedStyle(button);
+        console.log('Computed backgroundColor:', styles.backgroundColor);
         expect(styles.position).toBe('fixed');
         expect(styles.top).toBe('20px');
         expect(styles.right).toBe('20px');
