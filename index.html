@@ -11,11 +11,11 @@
         <h1>Pet Simulator X Modded</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="wall-of-fame.html">Wall Of Fame</a></li>
-                <li><a href="egg-values.html">Egg Values</a></li>
-                <li><a href="huge-values.html">Huge Values</a></li>
-                <li><a href="titanic-values.html">Titanic Values</a></li>
+                <li><a href="index.html" class="clickable">Home</a></li>
+                <li><a href="wall-of-fame.html" class="clickable">Wall Of Fame</a></li>
+                <li><a href="egg-values.html" class="clickable">Egg Values</a></li>
+                <li><a href="huge-values.html" class="clickable">Huge Values</a></li>
+                <li><a href="titanic-values.html" class="clickable">Titanic Values</a></li>
             </ul>
         </nav>
     </header>
@@ -26,25 +26,31 @@
             <p>Welcome to the site of a Roblox Game of Pet Simulator X Modded. Feel free to explore and contact us for issues!</p>
         </section>
         <section class="updates">
-            <div class="update">
-                <img src="images/update1.png" alt="Update 1 - Summer Update">
+            <div class="update clickable">
+                <div class="update-image-container">
+                    <img src="images/update1.png" alt="Update 1 - Summer Update" class="update-image">
+                </div>
                 <div class="update-info">
                     <h3>Update 1 - Summer Update</h3>
-                    <a href="update1.html" class="button">Read More →</a>
+                    <a href="update1.html" class="button clickable">Read More →</a>
                 </div>
             </div>
-            <div class="update">
-                <img src="images/update2.jpg" alt="Update 2 - ???">
+            <div class="update clickable">
+                <div class="update-image-container">
+                    <img src="images/update2.jpg" alt="Update 2 - ???" class="update-image">
+                </div>
                 <div class="update-info">
                     <h3>Update 2 - ???</h3>
-                    <a href="update2.html" class="button">Read More →</a>
+                    <a href="update2.html" class="button clickable">Read More →</a>
                 </div>
             </div>
-            <div class="update">
-                <img src="images/update3.jpg" alt="Update 3 - ???">
+            <div class="update clickable">
+                <div class="update-image-container">
+                    <img src="images/update3.jpg" alt="Update 3 - ???" class="update-image">
+                </div>
                 <div class="update-info">
                     <h3>Update 3 - ???</h3>
-                    <a href="update3.html" class="button">Read More →</a>
+                    <a href="update3.html" class="button clickable">Read More →</a>
                 </div>
             </div>
         </section>
@@ -53,6 +59,8 @@
     <footer>
         <p>If Any Issues Please Dm @Von On Discord So We Can Fix it!</p>
     </footer>
+
+    <button class="dark-mode-toggle clickable" onclick="toggleDarkMode()">🌓</button>
 
     <script src="script.js"></script>
 </body>
