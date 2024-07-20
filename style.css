@@ -1,0 +1,138 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.update-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.top-image {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+}
+
+.update-content {
+    text-align: center;
+}
+
+.update-content h2 {
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+.update-list {
+    list-style-type: disc;
+    margin: 1rem 0;
+    padding: 0;
+    text-align: left;
+}
+
+.update-list li {
+    margin-bottom: 0.5rem;
+}
+
+.update-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+.images img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #4CAF50;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation Classes */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.clickable:active {
+    transform: scale(0.95);
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
