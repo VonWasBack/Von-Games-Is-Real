@@ -1,18 +1,18 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "your-build-command",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "public" }
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "public" }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
