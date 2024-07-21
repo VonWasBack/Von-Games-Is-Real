@@ -1,4 +1,6 @@
 {
+  "name": "Von Games",
+  "version": "1.0.0",
   "scripts": {
     "build": "your-build-command --output public"
   },
