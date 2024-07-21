@@ -4,9 +4,3 @@
   "scripts": {
     "build": "your-build-command --output public"
   },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^24.1.0"
-  }
-}
