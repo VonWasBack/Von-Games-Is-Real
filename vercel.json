@@ -1,6 +1,18 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "your-build-command",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "public" }
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
     "cleanUrls": true,
-    "routes": [
-      { "src": "/home", "dest": "/home.html" }
-    ]
+    "trailingSlash": false
   }
