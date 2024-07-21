@@ -1,3 +1,70 @@
-function _0x49c7(_0x191ccc,_0x4be8cb){const _0x44ace8=_0x44ac();return _0x49c7=function(_0x49c769,_0x1dd020){_0x49c769=_0x49c769-0x1cc;let _0x25e783=_0x44ace8[_0x49c769];return _0x25e783;},_0x49c7(_0x191ccc,_0x4be8cb);}const _0x3874b6=_0x49c7;function _0x44ac(){const _0x1b616a=['getElementById','add','display','733328lqKZeC','darkMode','querySelectorAll','40558klIkOU','forEach','49086ATunDn','length','871836FruzvN','toggle','getElementsByClassName','target','.clickable','block','330485MXYKrY','2006368MoBkmT','contains','style','pulse','classList','remove','13eYxXtA','dark-mode','580716NaBpDG','addEventListener','close','24kUpxFZ','click','enabled','img','body','getItem','onclick','bounce','none','clickable','modalImage'];_0x44ac=function(){return _0x1b616a;};return _0x44ac();}(function(_0x1d0973,_0x4516e6){const _0x4ca038=_0x49c7,_0x1087cd=_0x1d0973();while(!![]){try{const _0x5970a7=-parseInt(_0x4ca038(0x1d2))/0x1*(parseInt(_0x4ca038(0x1e8))/0x2)+parseInt(_0x4ca038(0x1ec))/0x3+parseInt(_0x4ca038(0x1e5))/0x4+-parseInt(_0x4ca038(0x1f2))/0x5+parseInt(_0x4ca038(0x1ea))/0x6+parseInt(_0x4ca038(0x1cc))/0x7+-parseInt(_0x4ca038(0x1d7))/0x8*(parseInt(_0x4ca038(0x1d4))/0x9);if(_0x5970a7===_0x4516e6)break;else _0x1087cd['push'](_0x1087cd['shift']());}catch(_0x37c80a){_0x1087cd['push'](_0x1087cd['shift']());}}}(_0x44ac,0x3becd),document[_0x3874b6(0x1d5)]('DOMContentLoaded',()=>{const _0x1ac8dd=_0x3874b6,_0x2d3e3f=document[_0x1ac8dd(0x1e2)]('darkModeToggle'),_0x17f428=document[_0x1ac8dd(0x1db)];localStorage[_0x1ac8dd(0x1dc)](_0x1ac8dd(0x1e6))===_0x1ac8dd(0x1d9)&&_0x17f428[_0x1ac8dd(0x1d0)][_0x1ac8dd(0x1e3)](_0x1ac8dd(0x1d3));function _0x591564(){const _0x4d39de=_0x1ac8dd;_0x17f428[_0x4d39de(0x1d0)][_0x4d39de(0x1ed)](_0x4d39de(0x1d3)),_0x17f428[_0x4d39de(0x1d0)][_0x4d39de(0x1cd)](_0x4d39de(0x1d3))?localStorage['setItem']('darkMode',_0x4d39de(0x1d9)):localStorage['setItem']('darkMode','disabled');}_0x2d3e3f&&_0x2d3e3f[_0x1ac8dd(0x1d5)]('click',_0x591564);const _0x41b20a=document[_0x1ac8dd(0x1e2)]('imageModal'),_0x3067ec=document[_0x1ac8dd(0x1e2)](_0x1ac8dd(0x1e1)),_0xb90051=document[_0x1ac8dd(0x1ee)](_0x1ac8dd(0x1d6))[0x0];function _0x56d7f8(_0x2e1b82){const _0x59c4d7=_0x1ac8dd;_0x41b20a&&_0x3067ec&&(_0x41b20a['style'][_0x59c4d7(0x1e4)]=_0x59c4d7(0x1f1),_0x3067ec['src']=_0x2e1b82);}_0xb90051&&(_0xb90051[_0x1ac8dd(0x1dd)]=function(){const _0x1b6429=_0x1ac8dd;_0x41b20a&&(_0x41b20a[_0x1b6429(0x1ce)][_0x1b6429(0x1e4)]=_0x1b6429(0x1df));});window['onclick']=function(_0x15317e){const _0x270f70=_0x1ac8dd;_0x15317e[_0x270f70(0x1ef)]==_0x41b20a&&_0x41b20a&&(_0x41b20a[_0x270f70(0x1ce)]['display']='none');};const _0x4df6c0=document[_0x1ac8dd(0x1e7)](_0x1ac8dd(0x1da));_0x4df6c0[_0x1ac8dd(0x1e9)](_0x2c8eb2=>{const _0x3a2b59=_0x1ac8dd;_0x2c8eb2[_0x3a2b59(0x1d5)]('click',()=>{_0x56d7f8(_0x2c8eb2['src']);}),_0x2c8eb2[_0x3a2b59(0x1d0)][_0x3a2b59(0x1e3)](_0x3a2b59(0x1e0));});function _0x306590(_0x51100a,_0xa8c6b4){const _0x4330be=_0x1ac8dd;_0x51100a[_0x4330be(0x1d5)](_0x4330be(0x1d8),()=>{const _0x1ea8fd=_0x4330be;_0x51100a[_0x1ea8fd(0x1d0)][_0x1ea8fd(0x1e3)](_0xa8c6b4),setTimeout(()=>{const _0x5ec4f8=_0x1ea8fd;_0x51100a[_0x5ec4f8(0x1d0)][_0x5ec4f8(0x1d1)](_0xa8c6b4);},0x12c);});}const _0x1d616f=document[_0x1ac8dd(0x1e7)](_0x1ac8dd(0x1f0));_0x1d616f['forEach']((_0x4a142a,_0x2c571f)=>{const _0x5bd975=_0x1ac8dd,_0x498e16=[_0x5bd975(0x1de),_0x5bd975(0x1cf)];_0x306590(_0x4a142a,_0x498e16[_0x2c571f%_0x498e16[_0x5bd975(0x1eb)]]);});}));
+(function(_0x1fdcc8, _0x4d82a6) {
+    var _0x46e0cf = function(_0x2e837e) {
+        while (--_0x2e837e) {
+            _0x1fdcc8.push(_0x1fdcc8.shift());
+        }
+    };
+    _0x46e0cf(++_0x4d82a6);
+}(['addEventListener', 'contextmenu', 'preventDefault', 'keydown', 'ctrlKey', 'key', 'c', 'u', 's', 'p', 'F12', 'DOMContentLoaded'], 0x1b8));
 
+var _0x46e0 = function(_0x1fdcc8, _0x4d82a6) {
+    _0x1fdcc8 = _0x1fdcc8 - 0x0;
+    return ['addEventListener', 'contextmenu', 'preventDefault', 'keydown', 'ctrlKey', 'key', 'c', 'u', 's', 'p', 'F12', 'DOMContentLoaded'][_0x1fdcc8];
+};
 
+document[_0x46e0('0x0')](_0x46e0('0x1'), function() {
+    document[_0x46e0('0x2')](_0x46e0('0x3'), function(event) {
+        event[_0x46e0('0x4')]();
+    });
+    document[_0x46e0('0x2')](_0x46e0('0x5'), function(event) {
+        if (event[_0x46e0('0x6')] && ['c', 'u', 's', 'p'].includes(event[_0x46e0('0x7')]) || event[_0x46e0('0x7')] === 'F12') {
+            event[_0x46e0('0x4')]();
+        }
+    });
+});
+
+const _0x44ac = function() {
+    return ['getElementById', 'add', 'display', '733328lqKZeC', 'darkMode', 'querySelectorAll', '40558klIkOU', 'forEach', '49086ATunDn', 'length', '871836FruzvN', 'toggle', 'getElementsByClassName', 'target', '.clickable', 'block', '330485MXYKrY', '2006368MoBkmT', 'contains', 'style', 'pulse', 'classList', 'remove', '13eYxXtA', 'dark-mode', '580716NaBpDG', 'addEventListener', 'close', '24kUpxFZ', 'click', 'enabled', 'img', 'body', 'getItem', 'onclick', 'bounce', 'none', 'clickable', 'modalImage'];
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const _0x1ac8dd = function(index) { return _0x44ac()[index]; };
+    const darkModeToggle = document[_0x1ac8dd(0x0)]('darkModeToggle');
+    const body = document[_0x1ac8dd(0x1)]('body');
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark-mode');
+    }
+
+    function toggleDarkMode() {
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
+    }
+
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+    }
+
+    const modal = document[_0x1ac8dd(0x1)]('imageModal');
+    const modalImage = document[_0x1ac8dd(0x1)]('modalImage');
+    const clickableImages = document.querySelectorAll('.clickable');
+
+    function showImage(src) {
+        if (modal && modalImage) {
+            modal.style.display = 'block';
+            modalImage.src = src;
+        }
+    }
+
+    clickableImages.forEach(image => {
+        image.addEventListener('click', () => {
+            showImage(image.src);
+        });
+        image.classList.add('clickable');
+    });
+
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+});
